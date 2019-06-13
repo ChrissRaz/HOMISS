@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="connected">active.png</file>
+        <file alias="notConnected">noactive.png</file>
+        <file alias="down">down.png</file>
+        <file alias="up">up.png</file>
+        <file alias="moins">moins.png</file>
+        <file alias="plus">plus.png</file>
+        <file alias="logo">cen.jpg</file>
+        <file alias="entrer">entrer.png</file>
+        <file alias="sortie">sortir.png</file>
+    </qresource>
+    <qresource prefix="/file">
+        <file alias="style">style.qss</file>
+    </qresource>
+</RCC>
