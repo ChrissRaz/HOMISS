@@ -125,13 +125,3 @@ RESOURCES += \
     hom_ressources.qrc
 
 
-
-DISTFILES +=
-
-
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../Apps/Mysql/mysql-5.7.25-win32/mysql-5.7.25-win32/lib/ -llibmysql
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../Apps/Mysql/mysql-5.7.25-win32/mysql-5.7.25-win32/lib/ -llibmysqld
-else:unix: LIBS += -L$$PWD/../../../Apps/Mysql/mysql-5.7.25-win32/mysql-5.7.25-win32/lib/ -llibmysql
-
-INCLUDEPATH += $$PWD/../../../Apps/Mysql/mysql-5.7.25-win32/mysql-5.7.25-win32/include
-DEPENDPATH += $$PWD/../../../Apps/Mysql/mysql-5.7.25-win32/mysql-5.7.25-win32/include

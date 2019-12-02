@@ -5,13 +5,13 @@
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
 {
 
-//    int p=0;
+    int p=0;
 
-//    while (p<qApp->libraryPaths().length())
-//    {
-//        qDebug() << qApp->libraryPaths().at(p);
-//        p++;
-//    }
+    while (p<qApp->libraryPaths().length())
+    {
+        qDebug() << qApp->libraryPaths().at(p);
+        p++;
+    }
     ui->setupUi(this);
     this->setWindowTitle("HOMISS");
     timerIndicator= new QTimer(this);
